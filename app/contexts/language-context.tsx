@@ -123,10 +123,10 @@ const translations: Record<Language, Translations> = {
       feedback: 'Feedback',
     },
     hero: {
-      title: 'Welcome to Flexy',
+      title: 'Transform your business through technology',
       subtitle: 'Your flexible solution for modern business needs',
       description:
-        'Simplify your business operations with our comprehensive POS solution',
+        'Explore powerful POS features with new capabilities added every update. Streamline your business operations and boost productivity.',
       cta: 'Get Started',
       downloadButton: 'Download Now',
       rating: '4.8★ (2.1k reviews)',
@@ -240,10 +240,10 @@ const translations: Record<Language, Translations> = {
       feedback: 'Umpan Balik',
     },
     hero: {
-      title: 'Selamat Datang di Flexy',
+      title: 'Transformasi bisnis Anda melalui teknologi',
       subtitle: 'Solusi fleksibel untuk kebutuhan bisnis modern Anda',
       description:
-        'Sederhanakan operasi bisnis Anda dengan solusi POS yang komprehensif',
+        'Jelajahi fitur POS yang kuat dengan kemampuan baru yang ditambahkan setiap pembaruan. Sederhanakan operasi bisnis dan tingkatkan produktivitas.',
       cta: 'Mulai Sekarang',
       downloadButton: 'Download Sekarang',
       rating: '4.8★ (2.1k ulasan)',
