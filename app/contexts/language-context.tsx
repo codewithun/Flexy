@@ -19,7 +19,6 @@ interface Translations {
     description: string;
     cta: string;
     downloadButton: string;
-    rating: string;
   };
   features: {
     title: string;
@@ -126,10 +125,10 @@ const translations: Record<Language, Translations> = {
       title: 'Transform your business through technology',
       subtitle: 'Your flexible solution for modern business needs',
       description:
-        'Explore powerful POS features with new capabilities added every update. Streamline your business operations and boost productivity.',
+        'Discover powerful POS features designed to simplify your daily operations. With every update, FLEXY evolves to help you work smarter and grow faster.',
       cta: 'Get Started',
       downloadButton: 'Download Now',
-      rating: '4.8★ (2.1k reviews)',
+
     },
     features: {
       title: 'Key Features',
@@ -243,10 +242,9 @@ const translations: Record<Language, Translations> = {
       title: 'Transformasi bisnis Anda melalui teknologi',
       subtitle: 'Solusi fleksibel untuk kebutuhan bisnis modern Anda',
       description:
-        'Jelajahi fitur POS yang kuat dengan kemampuan baru yang ditambahkan setiap pembaruan. Sederhanakan operasi bisnis dan tingkatkan produktivitas.',
+        'Temukan fitur POS yang dirancang untuk mempermudah operasional harian Anda. Dengan setiap pembaruan, FLEXY terus berkembang untuk membantu Anda bekerja lebih cerdas dan tumbuh lebih cepat.',
       cta: 'Mulai Sekarang',
       downloadButton: 'Download Sekarang',
-      rating: '4.8★ (2.1k ulasan)',
     },
     features: {
       title: 'Fitur Utama',
