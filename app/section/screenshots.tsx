@@ -6,6 +6,13 @@ import { useLanguage } from '../contexts/language-context';
 export default function Screenshots() {
   const { t } = useLanguage();
 
+  // Array of screenshot images from apppreview folder
+  const screenshotImages = [
+    '/apppreview/preview1.png',
+    '/apppreview/preview2.png',
+    '/apppreview/preview3.png',
+  ];
+
   return (
     <section
       id='screenshots'
@@ -22,14 +29,14 @@ export default function Screenshots() {
         </div>
 
         <div className='grid md:grid-cols-3 gap-8'>
-          {[1, 2, 3].map((i) => (
+          {screenshotImages.map((image, index) => (
             <div
-              key={i}
-              className='bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300'
+              key={index}
+              className='bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:rotate-1'
             >
               <Image
-                src={`/placeholder.svg?height=600&width=300`}
-                alt={`Screenshot ${i}`}
+                src={image}
+                alt={`App Screenshot ${index + 1}`}
                 width={300}
                 height={600}
                 className='w-full h-auto'
