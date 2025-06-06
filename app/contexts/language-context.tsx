@@ -54,6 +54,8 @@ interface Translations {
   feedbackSuccess: string;
   feedbackError: string;
   footer: {
+    privacy: string;
+    terms: string;
     description: string;
     rights: string;
     links: string;
