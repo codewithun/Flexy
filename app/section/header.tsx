@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/language-context';
 import LanguageSwitcher from '../../components/language-switcher';
@@ -15,8 +16,14 @@ export default function Header() {
       <div className='container mx-auto px-4 py-4'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center space-x-3'>
-            <div className='w-10 h-10 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-xl flex items-center justify-center'>
-              <span className='text-white font-bold text-lg'>F</span>
+            <div className='w-10 h-10 flex items-center justify-center'>
+              <Image
+                src='/logo.png'
+                alt='Flexy Logo'
+                width={40}
+                height={40}
+                className='object-contain'
+              />
             </div>
             <span className='text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent'>
               Flexy

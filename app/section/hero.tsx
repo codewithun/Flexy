@@ -23,7 +23,7 @@ export default function Hero() {
             <div className='space-y-2'>
               {' '}
               <span className='inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium border border-white/20'>
-                APLIKASI POINT OF SALES
+                APLIKASI POINT OF SALE
               </span>
               <h1 className='text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight'>
                 Bisnis Fleksibel,
