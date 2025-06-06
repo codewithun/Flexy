@@ -19,6 +19,15 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo-apple.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/logo-apple.png',
+    },
+  },
   metadataBase: new URL("https://flexy.my.id"),
   alternates: {
     canonical: "/",
@@ -57,6 +66,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
+      <head>
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/logo-16x16.png" />
+        <link rel="mask-icon" href="/logo.svg" color="#2563eb" />
+        <meta name="msapplication-TileImage" content="/logo.png" />
+        <meta name="msapplication-TileColor" content="#2563eb" />
+        <meta name="theme-color" content="#2563eb" />
+      </head>
       <body className={inter.className}>
         <LanguageProvider>{children}</LanguageProvider>
       </body>
